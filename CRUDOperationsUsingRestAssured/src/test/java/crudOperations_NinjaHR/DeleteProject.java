@@ -9,7 +9,7 @@ public class DeleteProject {
 			
 			//HTTP Method
 			.when()
-			.delete("http://49.249.28.218:8091/project/NH_PROJ_1987")
+			.delete("http://49.249.28.218:8091/project/NH_PROJ_2680")
 			//response
 			.then().statusCode(204).log().all();
 			}
